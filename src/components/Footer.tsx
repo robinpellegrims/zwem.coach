@@ -49,9 +49,18 @@ export default function Footer() {
               <div className="space-y-2">
                 <a
                   href="mailto:info@zwem.coach"
-                  className="text-athletic-accent hover:text-athletic-secondary transition-colors block"
+                  className="flex items-center justify-center md:justify-start gap-2 text-gray-400 hover:text-athletic-accent transition-colors"
+                  aria-label="Stuur ons een email"
                 >
-                  info@zwem.coach
+                  <svg
+                    className="w-5 h-5"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                  </svg>
+                  <span>info@zwem.coach</span>
                 </a>
                 <a
                   href="https://www.instagram.com/zwem.coach/"
