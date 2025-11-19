@@ -7,18 +7,18 @@ export default function ProgramSection() {
     {
       icon: '👥',
       title: 'Doelgroep',
-      description: '15 jaar en ouder',
+      description: '15 jaar en ouder.',
     },
     {
       icon: '📊',
       title: 'Alle Niveaus',
       description:
-        'Van absolute beginners tot ervaren zwemmers en triatleten. We werken met een beginnersgroep en gevorderden.',
+        'Van absolute beginners tot ervaren zwemmers en triatleten die hun techniek willen verbeteren. We werken met een beginnersgroep en gevorderden.',
     },
     {
       icon: '👨‍👩‍👧‍👦',
       title: 'Kleine Groepen',
-      description: 'Maximaal 15 personen per groep waardoor individuele bijsturing mogelijk blijft',
+      description: 'Maximaal 15 personen per groep waardoor individuele bijsturing mogelijk blijft.',
     },
   ]
 
@@ -33,7 +33,7 @@ export default function ProgramSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-display font-bold text-athletic-dark mb-6">
-            Over het Programma
+            Programma
           </h2>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
             Een gestructureerd programma dat je helpt om je crawltechniek te

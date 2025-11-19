@@ -18,7 +18,7 @@ export default function CoachesSection() {
             Coaches
           </h2>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-            Train met Olympisch talent en expertise op het hoogste niveau
+            Train met Olympisch talent en expertise van het hoogste niveau
           </p>
         </motion.div>
 
@@ -48,7 +48,7 @@ export default function CoachesSection() {
                 Pieter Timmers
               </h3>
               <h4 className="text-xl font-display font-semibold text-gray-700 mb-6">
-                Van Olympisch Zilver tot Jouw Coach
+                Van Olympisch zilver tot jouw coach
               </h4>
 
               <div className="space-y-4 text-gray-700 leading-relaxed">
@@ -63,7 +63,7 @@ export default function CoachesSection() {
                   Het absolute hoogtepunt van zijn carrière was het behalen van
                   de{' '}
                   <strong>zilveren medaille op de 100 meter vrije slag</strong>{' '}
-                  tijdens de Olympische Spelen van Rio de Janeiro in 2016. Een
+                  tijdens de Olympische Spelen van Rio de Janeiro in 2016, hét koninginnennummer in het zwemmen. Een
                   prestatie die hem op het wereldtoneel plaatste.
                 </p>
 
@@ -81,9 +81,9 @@ export default function CoachesSection() {
                   </h5>
                   <p>
                     Bij zwem.coach krijg je niet zomaar zwemles; je leert van
-                    een olympiër. Pieter vertaalt de complexe technieken van de
+                    een Olympiër. Pieter vertaalt de complexe technieken van de
                     topsport naar haalbare doelen voor elk niveau. Of je nu je
-                    crawl wilt perfectioneren, efficiënter wilt leren zwemmen of
+                    crawl wil perfectioneren, efficiënter wil leren zwemmen of
                     je eerste baantjes trekt, Pieter biedt persoonlijke
                     begeleiding met de precisie van een topsporter en het geduld
                     van een coach.
@@ -106,7 +106,7 @@ export default function CoachesSection() {
                 Ward Pellegrims
               </h3>
               <h4 className="text-xl font-display font-semibold text-gray-700 mb-6">
-                Onderdeel van het Olympische Succesteam
+                Onderdeel van het Olympische succesteam
               </h4>
 
               <div className="space-y-4 text-gray-700 leading-relaxed">
@@ -127,7 +127,7 @@ export default function CoachesSection() {
                 </p>
 
                 <p>
-                  Zijn expertise is echter breder dan het elitezwemmen. Met meer
+                  Zijn expertise gaat breder dan het elitezwemmen. Met meer
                   dan 15 jaar ervaring en een Master in de Sportwetenschappen,
                   is Ward een autoriteit in performance coaching voor
                   duursporten. Hij specialiseert zich in het coachen van zowel
@@ -142,7 +142,7 @@ export default function CoachesSection() {
                     Ervaring op het hoogste niveau van het zwemmen en ook in de
                     totaalbegeleiding van agegroup triatleten en beginnende
                     zwemmers maakt van Ward de ideale coach om in het zwembad
-                    mee aan de slag te gaan. Ward's aanpak combineert
+                    mee aan de slag te gaan. Ward combineert
                     wetenschappelijke kennis met jarenlange praktijkervaring aan
                     de wereldtop.
                   </p>

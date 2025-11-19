@@ -12,10 +12,10 @@ test.describe('zwem.coach Homepage', () => {
       page.getByRole('heading', { name: /zwem\.coach/i }).first()
     ).toBeVisible()
     await expect(
-      page.getByText(/Start to Crawl Vilvoorde/i).first()
+      page.getByText(/Technieklessen Crawl Vilvoorde/i).first()
     ).toBeVisible()
     await expect(
-      page.getByText(/Met Pieter Timmers en Ward Pellegrims/i)
+      page.getByText(/Met Olympische expertise van Pieter Timmers en Ward Pellegrims/i)
     ).toBeVisible()
   })
 
@@ -27,7 +27,7 @@ test.describe('zwem.coach Homepage', () => {
   test('should display all main sections', async ({ page }) => {
     // Program section
     await expect(
-      page.getByRole('heading', { name: /Over het Programma/i })
+      page.getByRole('heading', { name: /Programma/i })
     ).toBeVisible()
 
     // Coaches section

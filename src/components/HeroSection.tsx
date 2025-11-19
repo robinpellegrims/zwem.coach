@@ -102,13 +102,12 @@ export default function HeroSection() {
                 zwem.coach
               </span>
               <span className="text-athletic-accent">
-                Start to Crawl Vilvoorde
+                Technieklessen Crawl Vilvoorde
               </span>
             </h1>
 
             <p className="text-xl md:text-2xl text-white mb-4 leading-relaxed drop-shadow-md">
-              Leer crawl zwemmen of verbeter je techniek onder deskundige
-              begeleiding in een motiverende groepsomgeving.
+              Met Olympische expertise van Pieter Timmers en Ward Pellegrims
             </p>
 
             <motion.p
@@ -117,7 +116,7 @@ export default function HeroSection() {
               transition={{ delay: 0.3, duration: 0.6 }}
               className="text-lg md:text-xl text-athletic-accent font-display font-semibold mb-8 drop-shadow-md"
             >
-              Met Pieter Timmers en Ward Pellegrims
+              Van beginners tot gevorderden.
             </motion.p>
 
             <motion.div

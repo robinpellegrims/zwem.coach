@@ -44,7 +44,7 @@ export default function PricingSection() {
           >
             <div className="text-center">
               <h3 className="text-3xl font-display font-bold mb-4">
-                10 Wekelijkse Lessen
+                10 wekelijkse lessen
               </h3>
               <div className="text-6xl font-bold mb-6">€240</div>
               <div className="space-y-2 text-lg">
@@ -52,11 +52,11 @@ export default function PricingSection() {
                   <span className="text-2xl">✓</span> Toegang tot het zwembad
                 </p>
                 <p className="flex items-center justify-center gap-2">
-                  <span className="text-2xl">✓</span> Badmuts
-                </p>
-                <p className="flex items-center justify-center gap-2">
                   <span className="text-2xl">✓</span> Begeleiding door Pieter &
                   Ward
+                </p>
+                <p className="flex items-center justify-center gap-2">
+                  <span className="text-2xl">✓</span> Badmuts
                 </p>
               </div>
             </div>
@@ -96,7 +96,7 @@ export default function PricingSection() {
               className="bg-ocean-50 border-2 border-athletic-accent rounded-xl p-8"
             >
               <h4 className="text-2xl font-display font-semibold text-athletic-dark mb-6">
-                📦 Optioneel Startpakket
+                📦 Optioneel startpakket
               </h4>
               <p className="text-gray-700 mb-4">
                 Heb je nog geen materiaal? Koop een startpakket bij
