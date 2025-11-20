@@ -29,27 +29,29 @@ const siteUrl = getSiteUrl()
 const ogImageUrl = getOgImageUrl()
 
 export const metadata: Metadata = {
-  title: 'zwem.coach | Start to Crawl Vilvoorde',
+  title: 'zwem.coach | Technieklessen Crawl Vilvoorde',
   description:
-    'Leer crawl zwemmen of verbeter je techniek onder deskundige begeleiding van Pieter Timmers en Ward Pellegrims in Vilvoorde. 10 wekelijkse sessies voor alle niveaus.',
+    'Technieklessen crawl zwemmen met Olympische expertise van Pieter Timmers en Ward Pellegrims in Vilvoorde. Van beginners tot gevorderden. 10 wekelijkse sessies voor alle niveaus.',
   keywords: [
     'zwemmen',
     'crawl',
     'Vilvoorde',
     'zwemles',
+    'technieklessen',
     'Pieter Timmers',
     'Ward Pellegrims',
     'zwemcoach',
     'triatlon',
+    'Olympisch',
   ],
   authors: [{ name: SITE_NAME }],
   icons: {
     icon: '/favicon.svg',
   },
   openGraph: {
-    title: 'zwem.coach | Start to Crawl Vilvoorde',
+    title: 'zwem.coach | Technieklessen Crawl Vilvoorde',
     description:
-      'Leer crawl zwemmen of verbeter je techniek onder deskundige begeleiding van Pieter Timmers en Ward Pellegrims.',
+      'Technieklessen crawl zwemmen met Olympische expertise van Pieter Timmers en Ward Pellegrims. Van beginners tot gevorderden.',
     url: siteUrl,
     siteName: SITE_NAME,
     type: 'website',
@@ -59,15 +61,15 @@ export const metadata: Metadata = {
         url: ogImageUrl,
         width: 1200,
         height: 630,
-        alt: 'zwem.coach - Start to Crawl Vilvoorde',
+        alt: 'zwem.coach - Technieklessen Crawl Vilvoorde',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'zwem.coach | Start to Crawl Vilvoorde',
+    title: 'zwem.coach | Technieklessen Crawl Vilvoorde',
     description:
-      'Leer crawl zwemmen of verbeter je techniek onder deskundige begeleiding van Pieter Timmers en Ward Pellegrims.',
+      'Technieklessen crawl zwemmen met Olympische expertise van Pieter Timmers en Ward Pellegrims. Van beginners tot gevorderden.',
     images: [ogImageUrl],
   },
   alternates: {

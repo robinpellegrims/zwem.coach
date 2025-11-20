@@ -41,7 +41,7 @@ export default function Footer() {
               <h3 className="font-display font-semibold text-xl mb-3">
                 zwem.coach
               </h3>
-              <p className="text-gray-400 text-sm">Start to Crawl Vilvoorde</p>
+              <p className="text-gray-400 text-sm">Technieklessen Crawl Vilvoorde</p>
             </div>
 
             <div>

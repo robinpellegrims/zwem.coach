@@ -41,8 +41,8 @@ export function getOgImageUrl(): string {
     return process.env.NEXT_PUBLIC_OG_IMAGE_URL
   }
 
-  // Default to og-image.jpg in public folder
-  return getFullUrl('/og-image.jpg')
+  // Default to og-image.png in public folder
+  return getFullUrl('/og-image.png')
 }
 
 /**
