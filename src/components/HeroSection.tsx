@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { useState, useEffect, useRef } from 'react'
+import Image from 'next/image'
 import CTAButton from './CTAButton'
 
 export default function HeroSection() {
@@ -98,10 +99,17 @@ export default function HeroSection() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-5xl md:text-7xl font-display font-bold text-white mb-6 drop-shadow-lg">
-              <span className="font-jua text-6xl md:text-8xl block mb-4">
-                zwem.coach
-              </span>
-              <span className="text-athletic-accent">
+              <div className="mb-4 flex justify-center">
+                <Image
+                  src="/logo.png"
+                  alt="zwem.coach"
+                  width={600}
+                  height={150}
+                  className="w-80 md:w-[600px] h-auto drop-shadow-lg"
+                  priority
+                />
+              </div>
+              <span className="text-3xl md:text-5xl lg:text-7xl text-athletic-accent block break-words">
                 Technieklessen Crawl Vilvoorde
               </span>
             </h1>

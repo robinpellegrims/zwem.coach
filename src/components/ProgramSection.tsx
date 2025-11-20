@@ -11,13 +11,13 @@ export default function ProgramSection() {
     },
     {
       icon: '📊',
-      title: 'Alle Niveaus',
+      title: 'Alle niveaus',
       description:
         'Van absolute beginners tot ervaren zwemmers en triatleten die hun techniek willen verbeteren. We werken met een beginnersgroep en gevorderden.',
     },
     {
       icon: '👨‍👩‍👧‍👦',
-      title: 'Kleine Groepen',
+      title: 'Kleine groepen',
       description: 'Maximaal 15 personen per groep waardoor individuele bijsturing mogelijk blijft.',
     },
   ]

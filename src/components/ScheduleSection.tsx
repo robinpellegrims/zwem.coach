@@ -55,7 +55,7 @@ export default function ScheduleSection() {
                   Let op
                 </h4>
                 <p className="text-sm bg-ocean-50 p-3 rounded-lg">
-                  Geen lessen tijdens de krokusvakantie (17 februari)
+                  Geen lessen tijdens de krokusvakantie (16 en 18 februari)
                 </p>
               </div>
 
