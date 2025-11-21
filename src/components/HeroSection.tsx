@@ -110,7 +110,7 @@ export default function HeroSection() {
                 />
               </div>
               <span className="text-3xl md:text-5xl lg:text-7xl text-athletic-accent block break-words">
-                Technieklessen Crawl Vilvoorde
+                Technieklessen crawl Vilvoorde
               </span>
             </h1>
 
