@@ -34,7 +34,7 @@ This is the official website for zwem.coach, offering professional crawl swimmin
 
 ### Requirements
 
-- Node.js 18 or higher
+- Node.js 20 or higher
 - npm or yarn
 
 ### Steps
@@ -73,8 +73,10 @@ cp .env.example .env.local
 Fill in your Stripe Payment Links and video url:
 
 ```env
-NEXT_PUBLIC_STRIPE_MONDAY_LINK=https://buy.stripe.com/your-group-1-link
-NEXT_PUBLIC_STRIPE_WEDNESDAY_LINK=https://buy.stripe.com/your-group-2-link
+NEXT_PUBLIC_SITE_URL=https://www.zwem.coach
+NEXT_PUBLIC_OG_IMAGE_URL=https://www.zwem.coach/og-image.jpg
+NEXT_PUBLIC_STRIPE_MONDAY_2_LINK=https://buy.stripe.com/your-monday-link
+NEXT_PUBLIC_STRIPE_WEDNESDAY_2_LINK=https://buy.stripe.com/your-wednesday-link
 NEXT_PUBLIC_HERO_VIDEO_URL=https://your-vercel-blob-url.vercel-storage.com/your-video.mp4
 ```
 
@@ -128,7 +130,8 @@ zwem.coach/
 │   │   ├── PricingSection.tsx            # Pricing & requirements
 │   │   └── Footer.tsx                    # Footer with contact info
 │   └── lib/
-│       └── legal-content.ts              # Legal content (terms & privacy)
+│       ├── legal-content.ts              # Legal content (terms & privacy)
+│       └── site-config.ts                # Site configuration constants
 ├── tests/
 │   └── homepage.spec.ts                  # E2E tests
 ├── public/                               # Static assets
@@ -147,9 +150,11 @@ zwem.coach/
 2. Go to [Vercel](https://vercel.com) and import your repository
 
 3. Configure environment variables in Vercel dashboard:
-   - `NEXT_PUBLIC_STRIPE_MONDAY_LINK`
-   - `NEXT_PUBLIC_STRIPE_WEDNESDAY_LINK`
+   - `NEXT_PUBLIC_STRIPE_MONDAY_2_LINK`
+   - `NEXT_PUBLIC_STRIPE_WEDNESDAY_2_LINK`
    - `NEXT_PUBLIC_HERO_VIDEO_URL`
+   - `NEXT_PUBLIC_SITE_URL`
+   - `NEXT_PUBLIC_OG_IMAGE_URL`
 
 4. Deploy!
 
@@ -201,6 +206,6 @@ For questions or issues about the website, create an issue in this GitHub reposi
 
 ## License
 
-Copyright (c) 2025 zwem.coach (Ward Pellegrims CV)
+Copyright (c) 2026 zwem.coach (Ward Pellegrims CV)
 
 All rights reserved.
