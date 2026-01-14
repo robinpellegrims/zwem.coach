@@ -46,7 +46,7 @@ export default function PricingSection() {
               <h3 className="text-3xl font-display font-bold mb-4">
                 10 wekelijkse lessen
               </h3>
-              <div className="text-6xl font-bold mb-6">€240</div>
+              <div className="text-6xl font-bold mb-6">€280</div>
               <div className="space-y-2 text-lg">
                 <p className="flex items-center justify-center gap-2">
                   <span className="text-2xl">✓</span> Toegang tot het zwembad

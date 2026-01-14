@@ -44,18 +44,9 @@ export default function ScheduleSection() {
                   Periode
                 </h4>
                 <p>
-                  Start: Week van 12 januari
+                  Start: Week van 27 april
                   <br />
-                  Einde: Week van 23 maart
-                </p>
-              </div>
-
-              <div>
-                <h4 className="font-semibold text-athletic-dark mb-2">
-                  Let op
-                </h4>
-                <p className="text-sm bg-ocean-50 p-3 rounded-lg">
-                  Geen lessen tijdens de krokusvakantie (16 en 18 februari)
+                  Einde: Week van 29 juni
                 </p>
               </div>
 
@@ -112,7 +103,10 @@ export default function ScheduleSection() {
               {/* Map */}
               <div className="mt-6">
                 <h4 className="font-semibold text-athletic-dark mb-3">Kaart</h4>
-                <div className="relative w-full rounded-lg overflow-hidden shadow-md" style={{ paddingBottom: '75%' }}>
+                <div
+                  className="relative w-full rounded-lg overflow-hidden shadow-md"
+                  style={{ paddingBottom: '75%' }}
+                >
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.8521442812707!2d4.423732876545454!3d50.926452052977005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3dd55ceea6099%3A0xdb83fcabeb3ab3a0!2sStedelijk%20zwembad%20%E2%80%98t%20Zeepaardje!5e0!3m2!1snl!2sbe!4v1762466568509!5m2!1snl!2sbe"
                     className="absolute top-0 left-0 w-full h-full"
