@@ -46,7 +46,22 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: SITE_NAME }],
   icons: {
-    icon: '/favicon.svg',
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/apple-icon.png',
+    other: [
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '192x192',
+        url: '/icon.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/svg+xml',
+        url: '/favicon.svg',
+      },
+    ],
   },
   openGraph: {
     title: 'zwem.coach | Technieklessen Crawl Vilvoorde',
